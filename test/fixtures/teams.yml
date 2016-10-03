@@ -1,0 +1,59 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  team_name: MyString
+  write_up: MyString
+  write_up2: MyString
+  foi: MyString
+  confirm: MyString
+  members: MyString
+  member1_fn: MyString
+  member1_ln: MyString
+  member1_email: MyString
+  member1_mobile: MyString
+  member1_college: MyString
+  member1_branch: MyString
+  member1_year: MyString
+  member2_fn: MyString
+  member2_ln: MyString
+  member2_email: MyString
+  member2_mobile: MyString
+  member2_college: MyString
+  member2_branch: MyString
+  member2_year: MyString
+  member3_fn: MyString
+  member3_ln: MyString
+  member3_email: MyString
+  member3_mobile: MyString
+  member3_branch: MyString
+  member3_college: MyString
+  member3_year: MyString
+
+two:
+  team_name: MyString
+  write_up: MyString
+  write_up2: MyString
+  foi: MyString
+  confirm: MyString
+  members: MyString
+  member1_fn: MyString
+  member1_ln: MyString
+  member1_email: MyString
+  member1_mobile: MyString
+  member1_college: MyString
+  member1_branch: MyString
+  member1_year: MyString
+  member2_fn: MyString
+  member2_ln: MyString
+  member2_email: MyString
+  member2_mobile: MyString
+  member2_college: MyString
+  member2_branch: MyString
+  member2_year: MyString
+  member3_fn: MyString
+  member3_ln: MyString
+  member3_email: MyString
+  member3_mobile: MyString
+  member3_branch: MyString
+  member3_college: MyString
+  member3_year: MyString

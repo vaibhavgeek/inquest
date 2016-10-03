@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inquest</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="panel panel-default">
+<%= image_tag "poster.jpg" , :style => "height: 100%;width: 100%;" %>
+</div>
+<br/>
+<%= yield %>
+</div>
+</div>
+</body>
+</html>

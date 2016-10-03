@@ -1,0 +1,2 @@
+json.extract! team, :id, :team_name, :write_up, :write_up2, :foi, :confirm, :members, :member1_fn, :member1_ln, :member1_email, :member1_mobile, :member1_college, :member1_branch, :member1_year, :member2_fn, :member2_ln, :member2_email, :member2_mobile, :member2_college, :member2_branch, :member2_year, :member3_fn, :member3_ln, :member3_email, :member3_mobile, :member3_branch, :member3_college, :member3_year, :created_at, :updated_at
+json.url team_url(team, format: :json)
