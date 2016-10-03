@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
  
  
+  get 'home/success'
+
   resources :teams
   get 'teams/success'
   # The priority is based upon order of creation: first created -> highest priority.
