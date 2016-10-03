@@ -35,7 +35,7 @@ In InQuest 2016 participants will probe into a topic of their choice. At the end
 
 
 <% if  params[:secret].to_s == "ppap" %>
-
+<div class="panel panel-default">
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Teams</h1>
@@ -56,7 +56,7 @@ In InQuest 2016 participants will probe into a topic of their choice. At the end
   <tbody>
     <% @teams.each do |team| %>
       <tr>
-        <td><%= team.name %></td>
+        <td><%= team.team_name %></td>
         <td><%= team.write_up %></td>
         <td><%= team.write_up2 %></td>
         <td><%= team.foi %></td>
@@ -71,6 +71,6 @@ In InQuest 2016 participants will probe into a topic of their choice. At the end
 </table>
 
 <br>
-
+</div>
 <%= link_to 'New Team', new_team_path %>
 <% end %>

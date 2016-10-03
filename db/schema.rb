@@ -13,13 +13,8 @@
 
 ActiveRecord::Schema.define(version: 20161003165003) do
 
-  create_table "requests", force: :cascade do |t|
-    t.integer  "from_id"
-    t.integer  "to_id"
-    t.string   "confirm"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "teams", force: :cascade do |t|
     t.string   "team_name"
@@ -52,8 +47,5 @@ ActiveRecord::Schema.define(version: 20161003165003) do
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
-
-# Could not dump table "users" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
 
 end
