@@ -1,5 +1,5 @@
 @import "bootstrap-select";
-
+@import "font-awesome";
 @import "bootstrap-sprockets";
 @import "bootstrap";
 /*
@@ -23,7 +23,7 @@
  {
  background-image: image-url("back.jpg");
  background-size:     1020px 500px;                      /* <------ */
-    background-repeat:   repeat;
-     overflow-x:hidden;
+ background-repeat:   repeat;
+ overflow-x:hidden;
 
  }
