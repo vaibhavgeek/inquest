@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+InQuest is an initiative to nurture research aptitude in the minds of students. Its first of its kind event where participants rigorously work to study a topic and express their mind driven intutive picture of the same. It aims to foster the growth of research as a community task where people can imagine innovate and inspire. 
 
-Things you may want to cover:
+In InQuest 2016 participants will probe into a topic of their choice. At the end of the given time they have to present their understanding of the concepts in the most original manner possible. One who investigates the topic with the entire coverage and appropriate depth will lift the winner's cup.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Proudly sponsored by edunova.io 
